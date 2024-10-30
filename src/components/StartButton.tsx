@@ -20,7 +20,7 @@ export const StartButton = () => {
   };
 
   return (
-    <Button disabled={disabled} type="button" onClick={handleStartClick}>
+    <Button onClick={handleStartClick} disabled={disabled}>
       Kezdhetjük
     </Button>
   );

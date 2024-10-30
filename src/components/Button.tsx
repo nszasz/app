@@ -1,8 +1,12 @@
 import { ButtonHTMLAttributes } from 'react';
 import './Button.scss';
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {}
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
 export const Button = ({ children, ...rest }: ButtonProps) => {
-  return <button {...rest}>{children}</button>;
+  return (
+    <button className="appButton" type="button" {...rest}>
+      {children}
+    </button>
+  );
 };
