@@ -1,0 +1,19 @@
+@use "../scss/Variables" as *;
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 1.5rem 2rem;
+
+  span {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}

@@ -1,0 +1,32 @@
+@use '../scss/Variables' as *;
+
+
+button {
+  border: 1px solid $primary-color-light;
+  border-radius: 2rem;
+  padding: 1rem;
+
+  background-color: $primary-color-light;
+  cursor: pointer;
+  transition-duration: 0.4s;
+
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+
+  &:hover {
+    background-color: white;
+    color: $primary-color-light;
+  }
+
+  &:disabled {
+    background-color: gray;
+    color: lightgray;
+    border-color: gray;
+    cursor: default;
+  }
+}
+

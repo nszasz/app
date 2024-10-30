@@ -1,0 +1,23 @@
+@use 'sass:color';
+@use "../scss/Variables" as *;
+@use "../scss/Breakpoints" as *;
+
+
+.welcome {
+  flex: 1;
+
+  background: linear-gradient(135deg, color.scale($primary-color-light, $lightness: 90%), rgba(color.scale($primary-color-light, $lightness: 90%), 0.7));
+
+  padding: 3rem;
+  @include up-lg {
+    padding: 8rem 3rem 3rem;
+  }
+
+  p {
+    margin-bottom: 3rem;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+  }
+}

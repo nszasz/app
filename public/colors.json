@@ -1,0 +1,75 @@
+{
+  "total": 14,
+  "data": [
+    {
+      "name": "AliceBlue",
+      "hex": "#F0F8FF",
+      "rgb": "240,248,255"
+    },
+    {
+      "name": "AntiqueWhite",
+      "hex": "#FAEBD7",
+      "rgb": "250,235,215"
+    },
+    {
+      "name": "Aqua",
+      "hex": "#00FFFF",
+      "rgb": "0,255,255"
+    },
+    {
+      "name": "Aquamarine",
+      "hex": "#7FFFD4",
+      "rgb": "127,255,212"
+    },
+    {
+      "name": "Azure",
+      "hex": "#F0FFFF",
+      "rgb": "240,255,255"
+    },
+    {
+      "name": "Beige",
+      "hex": "#F5F5DC",
+      "rgb": "245,245,220"
+    },
+    {
+      "name": "Bisque",
+      "hex": "#FFE4C4",
+      "rgb": "255,228,196"
+    },
+    {
+      "name": "Black",
+      "hex": "#000000",
+      "rgb": "0,0,0"
+    },
+    {
+      "name": "BlanchedAlmond",
+      "hex": "#FFEBCD",
+      "rgb": "255,235,205"
+    },
+    {
+      "name": "Blue",
+      "hex": "#0000FF",
+      "rgb": "0,0,255"
+    },
+    {
+      "name": "BlueViolet",
+      "hex": "#8A2BE2",
+      "rgb": "138,43,226"
+    },
+    {
+      "name": "Brown",
+      "hex": "#A52A2A",
+      "rgb": "165,42,42"
+    },
+    {
+      "name": "Burlywood",
+      "hex": "#DEB887",
+      "rgb": "222,184,135"
+    },
+    {
+      "name": "CadetBlue",
+      "hex": "#5F9EA0",
+      "rgb": "95,158,160"
+    }
+  ]
+}
